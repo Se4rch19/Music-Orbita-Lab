@@ -1,0 +1,315 @@
+{
+  "seed": "DURAZNO-2026-001",
+  "variationSeed": "DURAZNO-2026-001::v0",
+  "theme": "durazno",
+  "tempo": 100,
+  "tonicPc": 2,
+  "keyName": "D",
+  "scale": "mixolydian",
+  "motifs": [
+    {
+      "id": "durazno-skip",
+      "contour": [
+        0,
+        2,
+        0,
+        4,
+        7,
+        4
+      ],
+      "rhythm": [
+        1,
+        1,
+        2,
+        2,
+        2,
+        4
+      ],
+      "accents": [
+        true,
+        false,
+        false,
+        true,
+        false,
+        true
+      ],
+      "rests": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "id": "durazno-cell",
+      "contour": [
+        2,
+        4,
+        5,
+        4,
+        2
+      ],
+      "rhythm": [
+        2,
+        1,
+        1,
+        2,
+        4
+      ],
+      "accents": [
+        false,
+        true,
+        false,
+        false,
+        true
+      ],
+      "rests": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "id": "durazno-bounce",
+      "contour": [
+        0,
+        4,
+        2,
+        5,
+        4,
+        7
+      ],
+      "rhythm": [
+        1,
+        1,
+        2,
+        2,
+        2,
+        4
+      ],
+      "accents": [
+        true,
+        false,
+        false,
+        true,
+        false,
+        true
+      ],
+      "rests": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    }
+  ],
+  "progressions": [
+    {
+      "section": "INTRO",
+      "chords": [
+        "D6 (I:maj6)",
+        "D6 (I:maj6)",
+        "Gadd9 (IV:add9)",
+        "Gadd9 (IV:add9)"
+      ]
+    },
+    {
+      "section": "A",
+      "chords": [
+        "D6 (I:maj6)",
+        "D6 (I:maj6)",
+        "Dadd9 (I:add9)",
+        "G6 (IV:maj6)",
+        "Asus4 (V:sus4)",
+        "Gadd9 (IV:add9)",
+        "Gadd9 (IV:add9)",
+        "Em7 (II:min7)"
+      ]
+    },
+    {
+      "section": "A_VARIATION",
+      "chords": [
+        "D6 (I:maj6)",
+        "D6 (I:maj6)",
+        "Dadd9 (I:add9)",
+        "Dadd9 (I:add9)",
+        "G6 (IV:maj6)",
+        "Dadd9 (I:add9)",
+        "Asus4 (V:sus4)",
+        "Asus4 (V:sus4)"
+      ]
+    },
+    {
+      "section": "B",
+      "chords": [
+        "D6 (I:maj6)",
+        "D6 (I:maj6)",
+        "Dadd9 (I:add9)",
+        "Dadd9 (I:add9)",
+        "Asus4 (V:sus4)",
+        "Asus4 (V:sus4)",
+        "F#m7 (III:min7)",
+        "Dadd9 (I:add9)"
+      ]
+    },
+    {
+      "section": "BUILD",
+      "chords": [
+        "D6 (I:maj6)",
+        "D6 (I:maj6)",
+        "Gadd9 (IV:add9)",
+        "D6 (I:maj6)"
+      ]
+    },
+    {
+      "section": "PEAK",
+      "chords": [
+        "D6 (I:maj6)",
+        "D6 (I:maj6)",
+        "Em7 (II:min7)",
+        "Em7 (II:min7)",
+        "Gadd9 (IV:add9)",
+        "Gadd9 (IV:add9)",
+        "Em7 (II:min7)",
+        "Gadd9 (IV:add9)"
+      ]
+    },
+    {
+      "section": "RECOVERY",
+      "chords": [
+        "D6 (I:maj6)",
+        "D6 (I:maj6)",
+        "Em7 (II:min7)",
+        "Asus4 (V:sus4)",
+        "F#m7 (III:min7)",
+        "Em7 (II:min7)",
+        "D6 (I:maj6)",
+        "Em7 (II:min7)"
+      ]
+    },
+    {
+      "section": "TRANSITION",
+      "chords": [
+        "D6 (I:maj6)",
+        "Bm7 (bVII:min7)"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "INTRO",
+      "bars": 4
+    },
+    {
+      "id": "A",
+      "bars": 8
+    },
+    {
+      "id": "A_VARIATION",
+      "bars": 8
+    },
+    {
+      "id": "B",
+      "bars": 8
+    },
+    {
+      "id": "A",
+      "bars": 8
+    },
+    {
+      "id": "BUILD",
+      "bars": 4
+    },
+    {
+      "id": "PEAK",
+      "bars": 8
+    },
+    {
+      "id": "RECOVERY",
+      "bars": 8
+    }
+  ],
+  "instrumentConfiguration": {
+    "padCutoff": 1100,
+    "padDetune": 9,
+    "pluckCutoff": 2400,
+    "bassCutoff": 560,
+    "leadCutoff": 2000,
+    "bellInharmonic": 0.1,
+    "noiseAmount": 0.08,
+    "brightness": 0.7,
+    "space": 0.38
+  },
+  "dna": {
+    "seed": "DURAZNO-2026-001",
+    "tempo": 100,
+    "tonic": 2,
+    "mode": "mixolydian",
+    "harmonicColor": "warm",
+    "progressionFamily": "mixo-groove",
+    "motifDNA": {
+      "id": "durazno-skip",
+      "contour": [
+        0,
+        2,
+        0,
+        4,
+        7,
+        4
+      ],
+      "rhythm": [
+        1,
+        1,
+        2,
+        2,
+        2,
+        4
+      ],
+      "accents": [
+        true,
+        false,
+        false,
+        true,
+        false,
+        true
+      ],
+      "rests": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    "bassPersonality": "walking",
+    "rhythmPersonality": "groove",
+    "timbreProfile": {
+      "padCutoff": 1100,
+      "padDetune": 9,
+      "pluckCutoff": 2400,
+      "bassCutoff": 560,
+      "leadCutoff": 2000,
+      "bellInharmonic": 0.1,
+      "noiseAmount": 0.08,
+      "brightness": 0.7,
+      "space": 0.38
+    },
+    "spaceProfile": {
+      "size": 0.72,
+      "damp": 0.55,
+      "wet": 0.16,
+      "preDelay": 0.008
+    },
+    "tension": 0.18,
+    "energy": 0.7,
+    "luminosity": 0.62
+  },
+  "generatedAt": "2026-09-12T17:17:03.699Z"
+}

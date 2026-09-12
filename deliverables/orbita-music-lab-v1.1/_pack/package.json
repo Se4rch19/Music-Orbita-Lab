@@ -1,0 +1,11 @@
+{
+  "name": "orbita-music-lab",
+  "version": "1.1.0",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "exports": { ".": "./src/orbita-music-lab/index.ts" },
+  "scripts": {
+    "test": "node --experimental-strip-types --test src/orbita-music-lab/core/prng.test.ts src/orbita-music-lab/core/mix-profile.test.ts src/orbita-music-lab/theory/theory.test.ts src/orbita-music-lab/composition/composition.test.ts src/orbita-music-lab/engine/engine-state.test.ts"
+  }
+}

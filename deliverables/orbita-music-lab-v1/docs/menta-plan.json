@@ -1,0 +1,242 @@
+{
+  "seed": "MENTA-2026-001",
+  "variationSeed": "MENTA-2026-001::v0",
+  "theme": "menta",
+  "tempo": 79,
+  "tonicPc": 7,
+  "keyName": "G",
+  "scale": "majorPentatonic",
+  "motifs": [
+    {
+      "id": "menta-rise",
+      "contour": [
+        0,
+        2,
+        4,
+        2,
+        4
+      ],
+      "rhythm": [
+        2,
+        2,
+        4,
+        2,
+        6
+      ],
+      "accents": [
+        false,
+        false,
+        true,
+        false,
+        true
+      ],
+      "rests": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "id": "menta-breath",
+      "contour": [
+        4,
+        2,
+        0,
+        2,
+        4
+      ],
+      "rhythm": [
+        4,
+        2,
+        4,
+        2,
+        4
+      ],
+      "accents": [
+        true,
+        false,
+        false,
+        false,
+        false
+      ],
+      "rests": [
+        false,
+        false,
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "id": "menta-fifth",
+      "contour": [
+        0,
+        4,
+        7,
+        4,
+        0
+      ],
+      "rhythm": [
+        2,
+        2,
+        4,
+        2,
+        6
+      ],
+      "accents": [
+        false,
+        false,
+        true,
+        false,
+        true
+      ],
+      "rests": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    }
+  ],
+  "progressions": [
+    {
+      "section": "INTRO",
+      "chords": [
+        "Gadd9 (I:add9)",
+        "Gadd9 (I:add9)",
+        "Asus2 (II:sus2)",
+        "Dsus2 (V:sus2)"
+      ]
+    },
+    {
+      "section": "A",
+      "chords": [
+        "Gadd9 (I:add9)",
+        "Gadd9 (I:add9)",
+        "Asus2 (II:sus2)",
+        "Cmaj7 (IV:maj7)",
+        "Asus2 (II:sus2)",
+        "Asus2 (II:sus2)",
+        "Cmaj7 (IV:maj7)",
+        "Esus4 (VI:sus4)"
+      ]
+    },
+    {
+      "section": "A_VARIATION",
+      "chords": [
+        "Gadd9 (I:add9)",
+        "Gadd9 (I:add9)",
+        "Asus2 (II:sus2)",
+        "Asus2 (II:sus2)",
+        "Gadd9 (I:add9)",
+        "Gadd9 (I:add9)",
+        "Esus4 (VI:sus4)",
+        "Esus4 (VI:sus4)"
+      ]
+    },
+    {
+      "section": "B",
+      "chords": [
+        "Gadd9 (I:add9)",
+        "Gadd9 (I:add9)",
+        "Asus2 (II:sus2)",
+        "Dsus2 (V:sus2)",
+        "Dsus2 (V:sus2)",
+        "Esus4 (VI:sus4)",
+        "Esus4 (VI:sus4)",
+        "Gadd9 (I:add9)"
+      ]
+    },
+    {
+      "section": "BUILD",
+      "chords": [
+        "Gadd9 (I:add9)",
+        "Gadd9 (I:add9)",
+        "Asus2 (II:sus2)",
+        "Asus2 (II:sus2)"
+      ]
+    },
+    {
+      "section": "PEAK",
+      "chords": [
+        "Gadd9 (I:add9)",
+        "Gadd9 (I:add9)",
+        "Asus2 (II:sus2)",
+        "Asus2 (II:sus2)",
+        "Gadd9 (I:add9)",
+        "Gadd9 (I:add9)",
+        "Cmaj7 (IV:maj7)",
+        "Cmaj7 (IV:maj7)"
+      ]
+    },
+    {
+      "section": "RECOVERY",
+      "chords": [
+        "Gadd9 (I:add9)",
+        "Gadd9 (I:add9)",
+        "Asus2 (II:sus2)",
+        "Asus2 (II:sus2)",
+        "Cmaj7 (IV:maj7)",
+        "Gadd9 (I:add9)",
+        "Gadd9 (I:add9)",
+        "Esus4 (VI:sus4)"
+      ]
+    },
+    {
+      "section": "TRANSITION",
+      "chords": [
+        "Gadd9 (I:add9)",
+        "Cmaj7 (IV:maj7)"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "INTRO",
+      "bars": 4
+    },
+    {
+      "id": "A",
+      "bars": 8
+    },
+    {
+      "id": "A_VARIATION",
+      "bars": 8
+    },
+    {
+      "id": "B",
+      "bars": 8
+    },
+    {
+      "id": "A",
+      "bars": 8
+    },
+    {
+      "id": "BUILD",
+      "bars": 4
+    },
+    {
+      "id": "PEAK",
+      "bars": 8
+    },
+    {
+      "id": "RECOVERY",
+      "bars": 8
+    }
+  ],
+  "instrumentConfiguration": {
+    "padCutoff": 920,
+    "padDetune": 7,
+    "pluckCutoff": 1800,
+    "bassCutoff": 420,
+    "leadCutoff": 1600,
+    "bellInharmonic": 0.18,
+    "noiseAmount": 0.05,
+    "brightness": 0.55,
+    "space": 0.62
+  },
+  "generatedAt": "2026-09-11T23:33:14.643Z"
+}

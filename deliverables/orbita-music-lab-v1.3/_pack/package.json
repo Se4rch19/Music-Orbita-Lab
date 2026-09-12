@@ -1,0 +1,10 @@
+{
+  "name": "orbita-music-lab",
+  "version": "1.3.0",
+  "private": true,
+  "type": "module",
+  "description": "Standalone procedural soundtrack engine for Órbita. Zero runtime dependencies.",
+  "exports": {
+    ".": "./src/orbita-music-lab/index.ts"
+  }
+}

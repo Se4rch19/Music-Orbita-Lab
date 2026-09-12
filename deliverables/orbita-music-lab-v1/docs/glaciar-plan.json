@@ -1,0 +1,226 @@
+{
+  "seed": "GLACIAR-2026-001",
+  "variationSeed": "GLACIAR-2026-001::v0",
+  "theme": "glaciar",
+  "tempo": 66,
+  "tonicPc": 9,
+  "keyName": "A",
+  "scale": "minorPentatonic",
+  "motifs": [
+    {
+      "id": "glaciar-sparse",
+      "contour": [
+        0,
+        4,
+        0
+      ],
+      "rhythm": [
+        8,
+        4,
+        4
+      ],
+      "accents": [
+        true,
+        false,
+        false
+      ],
+      "rests": [
+        false,
+        false,
+        true
+      ]
+    },
+    {
+      "id": "glaciar-crystal",
+      "contour": [
+        7,
+        4,
+        7,
+        4
+      ],
+      "rhythm": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "accents": [
+        true,
+        false,
+        true,
+        false
+      ],
+      "rests": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "id": "glaciar-high",
+      "contour": [
+        4,
+        6,
+        4,
+        0
+      ],
+      "rhythm": [
+        4,
+        2,
+        2,
+        8
+      ],
+      "accents": [
+        false,
+        true,
+        false,
+        false
+      ],
+      "rests": [
+        false,
+        false,
+        false,
+        true
+      ]
+    }
+  ],
+  "progressions": [
+    {
+      "section": "INTRO",
+      "chords": [
+        "Am(add9) (I:minadd9)",
+        "Am(add9) (I:minadd9)",
+        "Dm7 (IV:min7)",
+        "F#maj7 (VI:maj7)"
+      ]
+    },
+    {
+      "section": "A",
+      "chords": [
+        "Am(add9) (I:minadd9)",
+        "Am(add9) (I:minadd9)",
+        "Dm7 (IV:min7)",
+        "Dm7 (IV:min7)",
+        "Am(add9) (I:minadd9)",
+        "Am(add9) (I:minadd9)",
+        "Am7 (I:min7)",
+        "Am(add9) (I:minadd9)"
+      ]
+    },
+    {
+      "section": "A_VARIATION",
+      "chords": [
+        "Am(add9) (I:minadd9)",
+        "Am(add9) (I:minadd9)",
+        "F#maj7 (VI:maj7)",
+        "F#maj7 (VI:maj7)",
+        "Am(add9) (I:minadd9)",
+        "Am(add9) (I:minadd9)",
+        "F#maj7 (VI:maj7)",
+        "Am(add9) (I:minadd9)"
+      ]
+    },
+    {
+      "section": "B",
+      "chords": [
+        "Am(add9) (I:minadd9)",
+        "Am(add9) (I:minadd9)",
+        "Bsus2 (II:sus2)",
+        "Bsus2 (II:sus2)",
+        "Am(add9) (I:minadd9)",
+        "Am7 (I:min7)",
+        "Am(add9) (I:minadd9)",
+        "Dm7 (IV:min7)"
+      ]
+    },
+    {
+      "section": "BUILD",
+      "chords": [
+        "Am(add9) (I:minadd9)",
+        "Am(add9) (I:minadd9)",
+        "F#maj7 (VI:maj7)",
+        "Bsus2 (II:sus2)"
+      ]
+    },
+    {
+      "section": "PEAK",
+      "chords": [
+        "Am(add9) (I:minadd9)",
+        "Am(add9) (I:minadd9)",
+        "Bsus2 (II:sus2)",
+        "Dm7 (IV:min7)",
+        "Am(add9) (I:minadd9)",
+        "F#maj7 (VI:maj7)",
+        "Bsus2 (II:sus2)",
+        "Am(add9) (I:minadd9)"
+      ]
+    },
+    {
+      "section": "RECOVERY",
+      "chords": [
+        "Am(add9) (I:minadd9)",
+        "Am(add9) (I:minadd9)",
+        "Am7 (I:min7)",
+        "Dm7 (IV:min7)",
+        "Dm7 (IV:min7)",
+        "F#maj7 (VI:maj7)",
+        "F#maj7 (VI:maj7)",
+        "Bsus2 (II:sus2)"
+      ]
+    },
+    {
+      "section": "TRANSITION",
+      "chords": [
+        "Am(add9) (I:minadd9)",
+        "Bsus2 (II:sus2)"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "INTRO",
+      "bars": 4
+    },
+    {
+      "id": "A",
+      "bars": 8
+    },
+    {
+      "id": "A_VARIATION",
+      "bars": 8
+    },
+    {
+      "id": "B",
+      "bars": 8
+    },
+    {
+      "id": "A",
+      "bars": 8
+    },
+    {
+      "id": "BUILD",
+      "bars": 4
+    },
+    {
+      "id": "PEAK",
+      "bars": 8
+    },
+    {
+      "id": "RECOVERY",
+      "bars": 8
+    }
+  ],
+  "instrumentConfiguration": {
+    "padCutoff": 640,
+    "padDetune": 5,
+    "pluckCutoff": 3200,
+    "bassCutoff": 300,
+    "leadCutoff": 2200,
+    "bellInharmonic": 0.42,
+    "noiseAmount": 0.04,
+    "brightness": 0.72,
+    "space": 0.88
+  },
+  "generatedAt": "2026-09-11T23:33:14.653Z"
+}

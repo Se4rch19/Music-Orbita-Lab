@@ -1,0 +1,250 @@
+{
+  "seed": "LAVANDA-2026-001",
+  "variationSeed": "LAVANDA-2026-001::v0",
+  "theme": "lavanda",
+  "tempo": 83,
+  "tonicPc": 4,
+  "keyName": "E",
+  "scale": "dorian",
+  "motifs": [
+    {
+      "id": "lavanda-geo",
+      "contour": [
+        0,
+        3,
+        6,
+        4,
+        1,
+        4
+      ],
+      "rhythm": [
+        3,
+        3,
+        2,
+        2,
+        2,
+        4
+      ],
+      "accents": [
+        true,
+        false,
+        true,
+        false,
+        false,
+        false
+      ],
+      "rests": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "id": "lavanda-float",
+      "contour": [
+        4,
+        6,
+        3,
+        0,
+        2
+      ],
+      "rhythm": [
+        3,
+        3,
+        2,
+        4,
+        4
+      ],
+      "accents": [
+        false,
+        true,
+        false,
+        false,
+        false
+      ],
+      "rests": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "id": "lavanda-drift",
+      "contour": [
+        1,
+        4,
+        2,
+        6,
+        4,
+        0
+      ],
+      "rhythm": [
+        2,
+        4,
+        2,
+        2,
+        2,
+        4
+      ],
+      "accents": [
+        false,
+        true,
+        false,
+        false,
+        true,
+        false
+      ],
+      "rests": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    }
+  ],
+  "progressions": [
+    {
+      "section": "INTRO",
+      "chords": [
+        "Em(add9) (I:minadd9)",
+        "Em(add9) (I:minadd9)",
+        "Amaj7 (IV:maj7)",
+        "Dsus2 (VII:sus2)"
+      ]
+    },
+    {
+      "section": "A",
+      "chords": [
+        "Em(add9) (I:minadd9)",
+        "Em(add9) (I:minadd9)",
+        "Dsus2 (VII:sus2)",
+        "Dsus2 (VII:sus2)",
+        "C#maj7 (VI:maj7)",
+        "C#maj7 (VI:maj7)",
+        "Gmaj7 (III:maj7)",
+        "C#maj7 (VI:maj7)"
+      ]
+    },
+    {
+      "section": "A_VARIATION",
+      "chords": [
+        "Em(add9) (I:minadd9)",
+        "Em(add9) (I:minadd9)",
+        "C#maj7 (VI:maj7)",
+        "C#maj7 (VI:maj7)",
+        "Gmaj7 (III:maj7)",
+        "Gmaj7 (III:maj7)",
+        "C#maj7 (VI:maj7)",
+        "C#maj7 (VI:maj7)"
+      ]
+    },
+    {
+      "section": "B",
+      "chords": [
+        "Em(add9) (I:minadd9)",
+        "Em(add9) (I:minadd9)",
+        "Esus2add6 (I:sus2add6)",
+        "Gmaj7 (III:maj7)",
+        "Gmaj7 (III:maj7)",
+        "Amaj7 (IV:maj7)",
+        "F#m7 (II:min7)",
+        "Amaj7 (IV:maj7)"
+      ]
+    },
+    {
+      "section": "BUILD",
+      "chords": [
+        "Em(add9) (I:minadd9)",
+        "Em(add9) (I:minadd9)",
+        "Amaj7 (IV:maj7)",
+        "Dsus2 (VII:sus2)"
+      ]
+    },
+    {
+      "section": "PEAK",
+      "chords": [
+        "Em(add9) (I:minadd9)",
+        "Em(add9) (I:minadd9)",
+        "C#maj7 (VI:maj7)",
+        "Gmaj7 (III:maj7)",
+        "C#maj7 (VI:maj7)",
+        "Amaj7 (IV:maj7)",
+        "Dsus2 (VII:sus2)",
+        "Dsus2 (VII:sus2)"
+      ]
+    },
+    {
+      "section": "RECOVERY",
+      "chords": [
+        "Em(add9) (I:minadd9)",
+        "Em(add9) (I:minadd9)",
+        "Esus2add6 (I:sus2add6)",
+        "Esus2add6 (I:sus2add6)",
+        "Gmaj7 (III:maj7)",
+        "Amaj7 (IV:maj7)",
+        "Dsus2 (VII:sus2)",
+        "Em(add9) (I:minadd9)"
+      ]
+    },
+    {
+      "section": "TRANSITION",
+      "chords": [
+        "Em(add9) (I:minadd9)",
+        "Em(add9) (I:minadd9)"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "INTRO",
+      "bars": 4
+    },
+    {
+      "id": "A",
+      "bars": 8
+    },
+    {
+      "id": "A_VARIATION",
+      "bars": 8
+    },
+    {
+      "id": "B",
+      "bars": 8
+    },
+    {
+      "id": "A",
+      "bars": 8
+    },
+    {
+      "id": "BUILD",
+      "bars": 4
+    },
+    {
+      "id": "PEAK",
+      "bars": 8
+    },
+    {
+      "id": "RECOVERY",
+      "bars": 8
+    }
+  ],
+  "instrumentConfiguration": {
+    "padCutoff": 780,
+    "padDetune": 14,
+    "pluckCutoff": 2100,
+    "bassCutoff": 380,
+    "leadCutoff": 1400,
+    "bellInharmonic": 0.32,
+    "noiseAmount": 0.12,
+    "brightness": 0.48,
+    "space": 0.72
+  },
+  "generatedAt": "2026-09-11T23:33:14.653Z"
+}

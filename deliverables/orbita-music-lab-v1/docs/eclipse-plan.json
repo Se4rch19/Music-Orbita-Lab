@@ -1,0 +1,250 @@
+{
+  "seed": "ECLIPSE-2026-001",
+  "variationSeed": "ECLIPSE-2026-001::v0",
+  "theme": "eclipse",
+  "tempo": 111,
+  "tonicPc": 4,
+  "keyName": "E",
+  "scale": "phrygian",
+  "motifs": [
+    {
+      "id": "eclipse-drive",
+      "contour": [
+        0,
+        0,
+        3,
+        1,
+        0,
+        1
+      ],
+      "rhythm": [
+        2,
+        2,
+        2,
+        2,
+        4,
+        4
+      ],
+      "accents": [
+        true,
+        false,
+        true,
+        false,
+        true,
+        false
+      ],
+      "rests": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "id": "eclipse-tension",
+      "contour": [
+        0,
+        1,
+        3,
+        4,
+        0
+      ],
+      "rhythm": [
+        2,
+        2,
+        2,
+        4,
+        6
+      ],
+      "accents": [
+        true,
+        false,
+        false,
+        true,
+        true
+      ],
+      "rests": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "id": "eclipse-power",
+      "contour": [
+        0,
+        4,
+        3,
+        1,
+        0,
+        3
+      ],
+      "rhythm": [
+        2,
+        2,
+        4,
+        2,
+        2,
+        4
+      ],
+      "accents": [
+        true,
+        true,
+        false,
+        false,
+        true,
+        false
+      ],
+      "rests": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    }
+  ],
+  "progressions": [
+    {
+      "section": "INTRO",
+      "chords": [
+        "Em (I:min)",
+        "Em (I:min)",
+        "Cm (VI:min)",
+        "Cm (VI:min)"
+      ]
+    },
+    {
+      "section": "A",
+      "chords": [
+        "Em (I:min)",
+        "Em (I:min)",
+        "Am7 (IV:min7)",
+        "Am7 (IV:min7)",
+        "Em (I:min)",
+        "Em (I:min)",
+        "Am7 (IV:min7)",
+        "B7 (V:dom7)"
+      ]
+    },
+    {
+      "section": "A_VARIATION",
+      "chords": [
+        "Em (I:min)",
+        "Em (I:min)",
+        "E (bII:maj)",
+        "Em (I:min)",
+        "Em (I:min)",
+        "E (bII:maj)",
+        "Am7 (IV:min7)",
+        "Am7 (IV:min7)"
+      ]
+    },
+    {
+      "section": "B",
+      "chords": [
+        "Em (I:min)",
+        "Em (I:min)",
+        "E (bII:maj)",
+        "Am7 (IV:min7)",
+        "Am7 (IV:min7)",
+        "Em (I:min)",
+        "Em(add9) (I:minadd9)",
+        "B7 (V:dom7)"
+      ]
+    },
+    {
+      "section": "BUILD",
+      "chords": [
+        "Em (I:min)",
+        "Em (I:min)",
+        "Cm (VI:min)",
+        "Em (I:min)"
+      ]
+    },
+    {
+      "section": "PEAK",
+      "chords": [
+        "Em (I:min)",
+        "Em (I:min)",
+        "E (bII:maj)",
+        "Em (I:min)",
+        "Em (I:min)",
+        "Am7 (IV:min7)",
+        "Am7 (IV:min7)",
+        "B7 (V:dom7)"
+      ]
+    },
+    {
+      "section": "RECOVERY",
+      "chords": [
+        "Em (I:min)",
+        "Em (I:min)",
+        "Cm (VI:min)",
+        "Em (I:min)",
+        "Am7 (IV:min7)",
+        "E (bII:maj)",
+        "Em (I:min)",
+        "Em (I:min)"
+      ]
+    },
+    {
+      "section": "TRANSITION",
+      "chords": [
+        "Em (I:min)",
+        "Em (I:min)"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "INTRO",
+      "bars": 4
+    },
+    {
+      "id": "A",
+      "bars": 8
+    },
+    {
+      "id": "A_VARIATION",
+      "bars": 8
+    },
+    {
+      "id": "B",
+      "bars": 8
+    },
+    {
+      "id": "A",
+      "bars": 8
+    },
+    {
+      "id": "BUILD",
+      "bars": 4
+    },
+    {
+      "id": "PEAK",
+      "bars": 8
+    },
+    {
+      "id": "RECOVERY",
+      "bars": 8
+    }
+  ],
+  "instrumentConfiguration": {
+    "padCutoff": 520,
+    "padDetune": 8,
+    "pluckCutoff": 1400,
+    "bassCutoff": 280,
+    "leadCutoff": 1100,
+    "bellInharmonic": 0.22,
+    "noiseAmount": 0.16,
+    "brightness": 0.32,
+    "space": 0.44
+  },
+  "generatedAt": "2026-09-11T23:33:14.654Z"
+}

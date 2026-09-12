@@ -1,0 +1,68 @@
+import type { WorldThemeDefinition } from "../core/types.ts";
+import { motif, perc, bass, chord, edge } from "./helpers.ts";
+
+export const GLACIAR: WorldThemeDefinition = {
+  id: "glaciar",
+  name: "Glaciar",
+  identity: "Cold, crystalline, isolated, spacious, elegant.",
+  tempoRange: [66, 76],
+  scales: ["aeolian", "dorian", "minorPentatonic"],
+  tonicPcs: [4, 9, 11, 2, 0],
+  chordVocab: [
+    chord(1, "minadd9"),
+    chord(4, "min7"),
+    chord(6, "maj7"),
+    chord(2, "sus2"),
+    chord(5, "sus4"),
+    chord(1, "min7"),
+    chord(3, "maj7"),
+  ],
+  progressionGraph: {
+    "I:minadd9": [edge("IV:min7", 0.3), edge("VI:maj7", 0.28), edge("II:sus2", 0.22), edge("I:min7", 0.2)],
+    "I:min7": [edge("VI:maj7", 0.4), edge("IV:min7", 0.35), edge("I:minadd9", 0.25)],
+    "IV:min7": [edge("I:minadd9", 0.36), edge("VI:maj7", 0.32), edge("V:sus4", 0.32)],
+    "VI:maj7": [edge("I:minadd9", 0.4), edge("III:maj7", 0.3), edge("II:sus2", 0.3)],
+    "II:sus2": [edge("V:sus4", 0.4), edge("I:minadd9", 0.35), edge("IV:min7", 0.25)],
+    "V:sus4": [edge("I:minadd9", 0.55), edge("VI:maj7", 0.45)],
+    "III:maj7": [edge("IV:min7", 0.5), edge("I:minadd9", 0.5)],
+  },
+  preferredProgressionLengths: [8, 8],
+  motifs: [
+    motif("glaciar-sparse", [0, 7, 4, 0], [6, 4, 4, 2], [1, 0, 0, 1]),
+    motif("glaciar-crystal", [7, 4, 7, 4], [4, 4, 4, 4], [1, 0, 1, 0]),
+    motif("glaciar-high", [4, 6, 4, 0], [4, 2, 2, 8], [0, 1, 0, 0], [0, 0, 0, 1]),
+  ],
+  bassPatterns: [
+    bass([1, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0]),
+    bass([1, 0, 0, 0, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 0, 0]),
+  ],
+  percPatterns: [
+    perc({
+      kick: [2, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0],
+      snare: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+      hat: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0],
+      click: [0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0],
+    }),
+  ],
+  arpTicks: [0, 8],
+  densityRange: [0.28, 0.58],
+  variationProbability: 0.22,
+  cadenceEveryBars: 16,
+  timbre: {
+    padCutoff: 2400,
+    padDetune: 6,
+    pluckCutoff: 3800,
+    bassCutoff: 700,
+    leadCutoff: 3400,
+    bellInharmonic: 0.4,
+    noiseAmount: 0.04,
+    brightness: 0.82,
+    space: 0.84,
+  },
+  sectionWeights: { INTRO: 1.3, A: 1.3, A_VARIATION: 1, B: 1.1, BUILD: 0.3, PEAK: 0.25, RECOVERY: 1.2 },
+  melodyRegister: [72, 93],
+  bassRegister: [38, 50],
+  padRegister: [55, 79],
+  restBias: 0.12,
+  swing: 0,
+};
